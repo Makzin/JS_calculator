@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font: bold 14px Arial, sans-serif;
+}
+
+
+
+
+#calcBody {
+  margin: auto;
+  margin-top: 50px;
+  height: 300px;
+  width: 400px;
+  background: #9dd2ea;
+	background: linear-gradient(#9dd2ea, #8bceec);
+	border-radius: 3px;
+	box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+#resultScreen {
+  border: 1px solid black;
+  width: 270px;
+  height:30px;
+  margin-top: 15px;
+  margin-right: 20px;
+  background-color: #456783;
+  float: right;
+	padding: 0 10px;
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+#result {
+  display: inline-block;
+  float: right;
+  height: 29px;
+  width: 70px;
+  text-align: center;
+}
+
+#buttonSection {
+  margin-top: 20px;
+  margin-left: 10px
+
+}
+
+
+#buttonSection span {
+  float: left;
+	width: 70px;
+	height: 40px;
+	background: white;
+	border-radius: 3px;
+	margin: 0 10px 11px;
+	color: #888;
+	line-height: 40px;
+	text-align: center;
+}
+
+#buttonSection span.operator {
+	background-color: #456745;
+	margin-right: 20px;
+  float: right;
+}
+
+#buttonSection span.equal {
+  background-color: green;
+}
+
+#top {
+  height: 60px;
+
+}
+
+.clear {
+ background-color: red;
+ display: inline-block;
+ width: 70px;
+ height: 40px;
+ border-radius: 3px;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
