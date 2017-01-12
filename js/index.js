@@ -1,9 +1,13 @@
+// Future improvement ideas: 
+// Figure out what evils the eval function has 
+// add more safety checks
+
 $(document).ready(function() {
 
   var totalString = '';
   var operators = ['+', '-', 'x', '÷'];
 
-  //digit Entry + digit combining
+  //digit Entry + digit combining  
   $('.number').on('click', function() {
     var buttonEntry = $(this).text();
     totalString += buttonEntry;

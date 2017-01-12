@@ -1,21 +1,15 @@
-/* not allowing text to be selected on the calculator */
-
-.noselect {
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Chrome/Safari/Opera */
-     -khtml-user-select: none; /* Konqueror */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  not supported by any browser */
-}
-
+/* Future improvements ideas 
+- adding hover states on buttons
+- making font a bit larger and more 'calculatory'
+- making a more photorealistic calculator
+*/
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font: bold 14px Arial, sans-serif;
+
 }
 
 
@@ -58,7 +52,7 @@
 #buttonSection {
   margin-top: 20px;
   margin-left: 10px
-
+  
 }
 
 
@@ -86,7 +80,7 @@
 
 #top {
   height: 60px;
-
+  
 }
 
 .clear {
@@ -99,4 +93,20 @@
   line-height: 40px;
   margin-top: 10px;
   margin-left: 20px;
+}
+
+.disclaimer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* not allowing text to be selected on the calculator */
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
 }
